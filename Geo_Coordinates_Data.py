@@ -3,16 +3,16 @@
 import pandas as pd
 
 westminster_shops_pois = [
-  {"name": "Selfridges", "category": "Department Store", "latitude": 51.5147, "longitude": -0.1528},
-  {"name": "Fortnum & Mason", "category": "Luxury Department Store", "latitude": 51.5093, "longitude": -0.1376},
-  {"name": "Harrods", "category": "Luxury Department Store", "latitude": 51.4994, "longitude": -0.1635},
-  {"name": "Liberty London", "category": "Luxury Goods", "latitude": 51.5133, "longitude": -0.1407},
-  {"name": "The Buckingham Palace Shop", "category": "Souvenir Shop", "latitude": 51.5014, "longitude": -0.1448},
-  {"name": "Hamleys", "category": "Toy Store", "latitude": 51.5129, "longitude": -0.1404},
-  {"name": "Apple Regent Street", "category": "Electronics", "latitude": 51.5146, "longitude": -0.1410},
-  {"name": "Burberry Regent Street", "category": "Fashion", "latitude": 51.5139, "longitude": -0.1406},
-  {"name": "M&M’s World London", "category": "Specialty Store", "latitude": 51.5115, "longitude": -0.1316},
-  {"name": "Covent Garden Market", "category": "Shopping District", "latitude": 51.5110, "longitude": -0.1236}
+  {"poi_id": 1, "poi_name": "Selfridges", "poi_category": "Department Store", "poi_latitude": 51.5147, "poi_longitude": -0.1528},
+  {"poi_id": 2, "poi_name": "Fortnum & Mason", "poi_category": "Luxury Department Store", "poi_latitude": 51.5093, "poi_longitude": -0.1376},
+  {"poi_id": 3, "poi_name": "Harrods", "poi_category": "Luxury Department Store", "poi_latitude": 51.4994, "poi_longitude": -0.1635},
+  {"poi_id": 4, "poi_name": "Liberty London", "poi_category": "Luxury Goods", "poi_latitude": 51.5133, "poi_longitude": -0.1407},
+  {"poi_id": 5, "poi_name": "The Buckingham Palace Shop", "poi_category": "Souvenir Shop", "poi_latitude": 51.5014, "poi_longitude": -0.1448},
+  {"poi_id": 6, "poi_name": "Hamleys", "poi_category": "Toy Store", "poi_latitude": 51.5129, "poi_longitude": -0.1404},
+  {"poi_id": 7, "poi_name": "Apple Regent Street", "poi_category": "Electronics", "poi_latitude": 51.5146, "poi_longitude": -0.1410},
+  {"poi_id": 8, "poi_name": "Burberry Regent Street", "poi_category": "Fashion", "poi_latitude": 51.5139, "poi_longitude": -0.1406},
+  {"poi_id": 9, "poi_name": "M&M’s World London", "poi_category": "Specialty Store", "poi_latitude": 51.5115, "poi_longitude": -0.1316},
+  {"poi_id": 10, "poi_name": "Covent Garden Market", "poi_category": "Shopping District", "poi_latitude": 51.5110, "poi_longitude": -0.1236}
 ]
 
 # Convert POIs to a DataFrame
