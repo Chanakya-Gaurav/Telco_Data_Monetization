@@ -162,7 +162,7 @@ def update_map(n):
     fig.add_trace(tower_markers)
     fig.update_layout(
         mapbox=dict(
-            style='open-street-map',
+            style='open-street-map', #carto-positron, open-street-map
             center=dict(lat=51.5074, lon=-0.1278),
             zoom=12
         ),
