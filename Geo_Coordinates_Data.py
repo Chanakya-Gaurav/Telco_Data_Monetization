@@ -3,7 +3,7 @@
 import pandas as pd
 
 westminster_shops_pois = [
-  {"poi_id": 1, "poi_name": "Selfridges", "poi_category": "Department Store", "poi_latitude": 51.5147, "poi_longitude": -0.1528},
+  #{"poi_id": 1, "poi_name": "Selfridges", "poi_category": "Department Store", "poi_latitude": 51.5147, "poi_longitude": -0.1528},
   {"poi_id": 2, "poi_name": "Fortnum & Mason", "poi_category": "Luxury Department Store", "poi_latitude": 51.5093, "poi_longitude": -0.1376},
   {"poi_id": 3, "poi_name": "Harrods", "poi_category": "Luxury Department Store", "poi_latitude": 51.4994, "poi_longitude": -0.1635},
   {"poi_id": 4, "poi_name": "Liberty London", "poi_category": "Luxury Goods", "poi_latitude": 51.5133, "poi_longitude": -0.1407},
@@ -16,7 +16,7 @@ westminster_shops_pois = [
 ]
 
 # Convert POIs to a DataFrame
-poi_data = pd.DataFrame(westminster_shops_pois)
+westminster_shops_pois_df = pd.DataFrame(westminster_shops_pois)
 
 westminster_towers = [
     {"tower_id": 1, "latitude": 51.5145, "longitude": -0.1412, "near_shops": ["Selfridges", "Apple Regent Street", "Liberty London"]},

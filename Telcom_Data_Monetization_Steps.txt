@@ -1,0 +1,23 @@
+## Steps to Execute Telcom Data Monetization app
+
+#1. Start kafka
+
+
+cd kafka/
+docker-compose up -d
+
+#2. Start Producer
+python3 kProducer_Tower_Events.py 
+
+#3. Start Kafka Consumer
+python3 kConsumer_Tower_Events.py 
+
+#4. Start the Dash app
+python3 app.py
+
+#5. Open the Dash app in web browser
+http://127.0.0.1:8050/
+
+Net Steps:
+1. Add click event for each POI
+2. Show charts for visitor demographics, mobility, historical visit count timelines

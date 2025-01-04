@@ -1,0 +1,145 @@
+/* General styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1e1e2e;
+    color: #ffffff;
+}
+
+header {
+    padding: 15px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #282c34;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    color: #a2dfcb;
+}
+
+/* Layout styles */
+.container {
+    display: grid;
+    grid-template-rows: auto 350px repeat(4, auto);
+    gap: 15px;
+    padding: 20px;
+    width: 100%; /* Use 100% of the available width */
+    max-width: 1500px; /* Constrain the width to prevent excessive resizing */
+    margin: 0 auto; /* Center the container */
+
+}
+
+.map {
+    grid-row: 2;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    background-color: #222230;
+    gap: 15px;
+}
+
+/* Chart styles */
+.chart-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.chart-title {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+    color: #b287ea;
+    font-weight: bold;
+    text-align: left;
+}
+
+.chart-row-even {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+.chart-row-uneven-left {
+    display: grid;
+    grid-template-columns: minmax(300px, 65%) minmax(200px, 35%);
+    gap: 15px; /* Space between columns */
+}
+.chart-row-uneven-right {
+    display: grid;
+    grid-template-columns: minmax(200px, 35%) minmax(300px, 65%);
+    gap: 15px; /* Space between columns */
+}
+
+.chart {
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    background-color: #282c34;
+    padding: 15px;
+}
+
+.chart-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.line-chart {
+    /*height: 300px;*/
+    float: left;
+}
+
+.surface-chart {
+    /*height: 300px;*/
+    float: right;
+}
+/*
+.chart-large {
+    grid-column: span 2;
+    height: 350px;
+}
+*/
+.chart-3d {
+    height: 300px;
+}
+
+/* Dropdown box */
+.dropdown-container {
+    border: 2px solid #e9e1e1; /* Light gray border */
+    border-radius: 8px; /* Rounded corners */
+    text-align: center;
+    padding: 15px;
+    background-color: #282c34;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    margin-bottom: 10px; /* Spacing below the box */
+}
+
+
+.dropdown-row {
+    display: flex;
+    align-items: center; /* Align items vertically centered */
+    gap: 15px; /* Space between dropdown and details */
+    margin-bottom: 20px; /* Optional spacing below the row */
+}
+.dropdown {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #3c3f52;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    flex: 0 0 40%; /* Dropdown takes 40% of the row width */
+    min-width: 350px; /* Ensure a minimum width for the dropdown */
+}
+
+.drop-down-details {
+    flex: 1; /* POI details take the remaining space */
+    font-size: 16px; /* Adjust font size as needed */
+    color: #333; /* Optional: Style the details text */
+}
+
+footer {
+    padding: 10px;
+    text-align: center;
+    font-size: 12px;
+    color: #cccccc;
+}

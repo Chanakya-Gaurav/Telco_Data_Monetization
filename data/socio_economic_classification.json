@@ -1,0 +1,163 @@
+{
+  "Acorn": {
+    "Categories": [
+      {
+        "CategoryID": "1",
+        "CategoryName": "Affluent Achievers",
+        "Groups": [
+          {
+            "GroupID": "1A",
+            "GroupName": "Lavish Lifestyles",
+            "SubGroups": [
+              "Wealthy Homeowners",
+              "Established Families",
+              "Luxury Apartments"
+            ]
+          },
+          {
+            "GroupID": "1B",
+            "GroupName": "Executive Wealth",
+            "SubGroups": [
+              "Suburban Professionals",
+              "Corporate Success",
+              "Well-Off Retirees"
+            ]
+          },
+          {
+            "GroupID": "1C",
+            "GroupName": "Mature Affluence",
+            "SubGroups": [
+              "Comfortable Retirement",
+              "Spacious Family Homes",
+              "Established Wealth"
+            ]
+          }
+        ]
+      },
+      {
+        "CategoryID": "2",
+        "CategoryName": "Rising Prosperity",
+        "Groups": [
+          {
+            "GroupID": "2A",
+            "GroupName": "City Sophisticates",
+            "SubGroups": [
+              "Urban Professionals",
+              "Stylish Singles",
+              "Central Apartments"
+            ]
+          },
+          {
+            "GroupID": "2B",
+            "GroupName": "Career Climbers",
+            "SubGroups": [
+              "Young Families",
+              "Upwardly Mobile",
+              "Modern Housing"
+            ]
+          }
+        ]
+      },
+      {
+        "CategoryID": "3",
+        "CategoryName": "Comfortable Communities",
+        "Groups": [
+          {
+            "GroupID": "3A",
+            "GroupName": "Settled Suburbia",
+            "SubGroups": [
+              "Mature Families",
+              "Traditional Suburbs",
+              "Spacious Housing"
+            ]
+          },
+          {
+            "GroupID": "3B",
+            "GroupName": "Intermediate Lifestyles",
+            "SubGroups": [
+              "Stable Households",
+              "Affordable Housing",
+              "Suburban Comfort"
+            ]
+          },
+          {
+            "GroupID": "3C",
+            "GroupName": "Comfortable Seniors",
+            "SubGroups": [
+              "Independent Retirement",
+              "Well-Established Homes",
+              "Suburban Settlements"
+            ]
+          }
+        ]
+      },
+      {
+        "CategoryID": "4",
+        "CategoryName": "Financially Stretched",
+        "Groups": [
+          {
+            "GroupID": "4A",
+            "GroupName": "Modest Means",
+            "SubGroups": [
+              "Low-Cost Housing",
+              "Frugal Families",
+              "Modest Apartments"
+            ]
+          },
+          {
+            "GroupID": "4B",
+            "GroupName": "Striving Families",
+            "SubGroups": [
+              "Young Parents",
+              "Growing Communities",
+              "Budget Housing"
+            ]
+          },
+          {
+            "GroupID": "4C",
+            "GroupName": "Poorer Pensioners",
+            "SubGroups": [
+              "Fixed Incomes",
+              "Low-Cost Retirement",
+              "Older Communities"
+            ]
+          }
+        ]
+      },
+      {
+        "CategoryID": "5",
+        "CategoryName": "Urban Adversity",
+        "Groups": [
+          {
+            "GroupID": "5A",
+            "GroupName": "Young Hardship",
+            "SubGroups": [
+              "Unstable Employment",
+              "Budget Apartments",
+              "Young Singles"
+            ]
+          },
+          {
+            "GroupID": "5B",
+            "GroupName": "Struggling Estates",
+            "SubGroups": [
+              "High-Density Housing",
+              "Economically Challenged",
+              "Low-Income Families"
+            ]
+          },
+          {
+            "GroupID": "5C",
+            "GroupName": "Difficult Circumstances",
+            "SubGroups": [
+              "Temporary Housing",
+              "Low-Skilled Workers",
+              "Social Support Dependence"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
+
